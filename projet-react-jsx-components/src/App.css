@@ -1,0 +1,26 @@
+/* src/App.css */
+body {
+  background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+  min-height: 100vh;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.custom-card {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.custom-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 20px 40px rgba(0,0,0,0.15) !important;
+}
+
+.btn-primary {
+  background: linear-gradient(90deg, #007bff 0%, #0056b3 100%);
+  border: none;
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+
+.btn-primary:hover {
+  background: linear-gradient(90deg, #0056b3 0%, #004085 100%);
+}
